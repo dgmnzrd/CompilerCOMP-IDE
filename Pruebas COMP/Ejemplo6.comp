@@ -1,0 +1,12 @@
+// Ejemplo 6: El color no es un numero hexadecimal
+color $rojo =#FFFFFF;
+repeat(4){
+	back();
+	left();
+	repeatWhile(tossCoin()){
+		right();
+	}
+	left();
+}
+color $azul = #FFFFFG; // El color dado no es hexadecimal
+forward();

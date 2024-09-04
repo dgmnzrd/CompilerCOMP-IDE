@@ -1,0 +1,12 @@
+// Ejemplo 4: En codigo no es espera el token repetir
+color $rojo = #FFFFFF;
+repetir(4){ // Reptir no es un token valido deberia ser repeat
+	back();
+	left();
+	repeatWhile(tossCoin()){
+		right();
+	}
+	left();
+}
+color $azul = #FFA0A0; 
+forward();

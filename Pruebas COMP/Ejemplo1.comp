@@ -1,0 +1,12 @@
+// Ejemplo 1: Codigo funcional
+color $rojo = #FFFFFF;
+repeat(4){
+	back();
+	left();
+	repeatWhile(tossCoin()){
+		right();
+	}
+	left();
+}
+color $azul = #FFA0A0;
+forward();

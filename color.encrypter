@@ -1,0 +1,24 @@
+// Declaramos las variables
+float a = 1.0;
+float b; b = -3.0;
+float c = 2.0;
+
+// Declaramos los temporales e imprimimos sus resultados
+float temp1; temp1 = -b; print( temp1 );
+float temp2; temp2 = pow( b, 2 ) - 4 * a * c; print( temp2 );
+float temp3; temp3 = sqrt( temp2 ); print( temp3 );
+float temp4 = 2 * a; print( temp4 );
+float root1 = temp1 + temp2; print( root1 );
+float root2 = temp1 - temp2; print( root2 );
+
+// Verificamos si la raiz resulta negativa
+if( temp2 < 0 ) {
+	print( "Las_Raices_son_imaginarias" );
+} else {
+	float x1 = root1 / temp4;
+	float x2 = root2 / temp4;
+
+	// Imprimimos los resultados de x1 y x2
+	print(x1);
+	print(x2);
+}

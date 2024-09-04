@@ -1,0 +1,12 @@
+// Ejemplo 5: Valores no compatibles
+color $rojo = 65; // No es compatible el calor que se le da a color
+repeat(4){
+	back();
+	left();
+	repeatWhile(tossCoin()){
+		right();
+	}
+	left();
+}
+color $azul = #FFA0A0; 
+forward();

@@ -1,0 +1,12 @@
+// Ejemplo 2: Codigo falta identificador en la variable
+color rojo = #FFFFFF; // En esta variable falta el identificador "$"
+repeat(4){
+	back();
+	left();
+	repeatWhile(tossCoin()){
+		right();
+	}
+	left();
+}
+color $azul = #FFA0A0;
+forward();
